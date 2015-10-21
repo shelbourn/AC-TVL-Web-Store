@@ -83,7 +83,7 @@
     height:38px;
     padding-left:4px;
 }
-.ac-container button {
+.ac-container input.button {
     box-sizing: border-box;
     display: inline-block;
     margin-bottom: 0;
@@ -170,7 +170,7 @@
     }
     .ac-container button {
         box-sizing: border-box;
-        display: inline-block;
+        display: block;
         width: 100%;
     }
 }
