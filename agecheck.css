@@ -86,7 +86,7 @@
 .ac-container button {
     box-sizing: border-box;
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
@@ -99,9 +99,9 @@
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid transparent;
+    border: 0px solid #ccc;
     border-radius: 4px;
-    padding: 0x 10px 0px 10px;
+    padding: 4x 10px 4px 10px;
     font-size: 18px;
     line-height: 1.5;
     width: 84px;
@@ -114,6 +114,7 @@
 .ac-container button:hover{
     box-sizing: border-box;
     background:#03ac6c;
+    opacity: 0.6;
 }
 .ac-container .errors  {
     box-sizing: border-box;
