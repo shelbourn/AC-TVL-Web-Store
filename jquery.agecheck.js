@@ -11,10 +11,10 @@
     $.ageCheck = function(options) {
         
         var settings = $.extend({
-            minAge : 21,          
+            minAge : 18,          
             redirectTo : '', 
             title : 'Age Verification', 
-            copy : 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:'
+            copy : 'You must be 18 years or older to enter The Vapour Lounge Web Store.<br>Please enter your Date of Birth in the fields below to continue:'
         }, options);
         
         
@@ -67,6 +67,7 @@
                 var html = '';
                 html += '<div class="ac-overlay"></div>';
                 html += '<div class="ac-container">';
+                html += '<head> <img src="http://i.imgur.com/6MjGu6f.png" alt="Vapour Lounge Logo" style="width:100%"></head>'
                 html += '<h2>' + settings.title + '</h2>';
                 html += '<p>' + copy.replace('[21]','<strong>'+settings.minAge+'</strong>'); + '</p>';
                 html += '<div class="errors"></div>';
@@ -108,7 +109,7 @@
                 }
             },
             handleSuccess : function(){                
-                var successMsg = '<h3>Success!</h3><p>You are now being redirected back to the application...</p>';
+                var successMsg = '<h3>Success!</h3><p>Enjoy shopping at The Vapour Lounge Web Store!</p>';
                 $('.ac-container').html(successMsg);
                 setTimeout(function(){
                     $('.ac-container').animate({'top':'-350px'},200, function(){
@@ -142,7 +143,7 @@
                     };
                     _this.handleSuccess();
                 }else{
-                    _this.errors.push('You are not old enough');
+                    _this.errors.push('Sorry! You are not old enough to shop at The Vapour Lounge Web Store.');
                     _this.displayErrors();
                 }
             }
