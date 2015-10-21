@@ -86,7 +86,7 @@
 .ac-container button {
     box-sizing: border-box;
     display: inline-block;
-    margin-bottom: 5;
+    margin-bottom: 0;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
@@ -170,7 +170,7 @@
     }
     .ac-container button {
         box-sizing: border-box;
-        display: block;
+        display: inline-block;
         width: 100%;
     }
 }
