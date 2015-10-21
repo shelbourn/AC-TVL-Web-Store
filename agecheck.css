@@ -22,7 +22,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif; 
     width: 600px;
-    position: fixed;
+    position: relative;
     padding: 20px 20px 30px 20px;
     background: #fff;
     z-index: 99999;
@@ -35,8 +35,9 @@
 .ac-container h2 {
     box-sizing: border-box;
     margin:0 0 14px 0;
-    font-size:26px;
+    font-size:32px;
     border-bottom:1px dashed #ccc;
+    padding-top:11px;
     padding-bottom:11px;
 }
 .ac-container h3 {
@@ -49,7 +50,7 @@
 .ac-container p {
     box-sizing: border-box;
     margin:0 0 20px 0;
-    font-size: 14px;
+    font-size: 18px;
     color:#959595;
     line-height: 20px;
 }
@@ -101,7 +102,7 @@
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 4px 10px 4px 10px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.5;
     width: 84px;
     background:#03ac6c;
