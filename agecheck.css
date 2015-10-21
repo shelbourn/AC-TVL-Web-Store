@@ -29,7 +29,7 @@
     opacity:0;
     text-align:center;
     border-radius: 4px;
-    box-shadow:0px 0px 10px #000;
+    box-shadow:0px 0px 15px rgba(3, 172, 108, 0.8);
     font-weight:400;
 }
 .ac-container h2 {
