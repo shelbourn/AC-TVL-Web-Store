@@ -67,7 +67,7 @@
                 var html = '';
                 html += '<div class="ac-overlay"></div>';
                 html += '<div class="ac-container">';
-                html += '<head> <img src="http://i.imgur.com/6MjGu6f.png" alt="Vapour Lounge Logo" style="width:100%"><br></head>';
+                html += '<head> <img src="http://i.imgur.com/6MjGu6f.png" alt="Vapour Lounge Logo" style="width:100%"></head>';
                 html += '<h2>' + settings.title + '</h2>';
                 html += '<p>' + copy.replace('[21]','<strong>'+settings.minAge+'</strong>'); + '</p>';
                 html += '<div class="errors"></div>';
