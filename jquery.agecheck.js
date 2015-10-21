@@ -77,7 +77,7 @@
                 }
                 html += '</select>';
                 html += '<input class="day" maxlength="2" placeholder="01" />';
-                html += '<input class="year" maxlength="4" placeholder="1989"/>';
+                html += '<input class="year" maxlength="4" placeholder="1997"/>';
                 html += '<button>Submit</button></div></div>';
                 
                 $('body').append(html);
