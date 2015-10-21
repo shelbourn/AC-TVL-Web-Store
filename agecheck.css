@@ -21,7 +21,7 @@
 .ac-container {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif; 
-    width: 600px;
+    width: 650px;
     position: fixed;
     padding: 20px 20px 30px 20px;
     background: #fff;
@@ -62,7 +62,7 @@
     box-sizing: border-box;
     color:#555;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.5;
     border-radius: 3px;
     margin-right:5px;
@@ -71,16 +71,16 @@
 .ac-container input.day{
     box-sizing: border-box;
     width:45px;
-    height:28px;
+    height:38px;
 }
 .ac-container input.year{
     box-sizing: border-box;
     width:70px;
-    height: 28px;
+    height: 38px;
 }
 .ac-container select {
     box-sizing: border-box;
-    height:28px;
+    height:38px;
     padding-left:4px;
 }
 .ac-container button {
