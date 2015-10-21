@@ -13,7 +13,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,1);
     z-index: 99998;
     opacity:0;
 	cursor: wait;
@@ -24,12 +24,12 @@
     width: 650px;
     position: fixed;
     padding: 20px 20px 30px 20px;
-    background: #fff;
+    background: rgba(244,242,242,0.8);
     z-index: 99999;
     opacity:0;
     text-align:center;
     border-radius: 4px;
-    box-shadow:0px 0px 5px #000;
+    box-shadow:0px 0px 10px #000;
     font-weight:400;
 }
 .ac-container h2 {
@@ -51,7 +51,7 @@
     box-sizing: border-box;
     margin:0 0 20px 0;
     font-size: 18px;
-    color:#959595;
+    color:#03ac6c;
     line-height: 20px;
 }
 .ac-container p strong {
@@ -108,7 +108,7 @@
     height: 38px;
     background:#03ac6c;
     color:#fff; 
-    text-shadow:1px 1px 0 #03ac6c;
+    text-shadow:1px 1px 0 #a3a3a3;
 
 }
 .ac-container button:hover{
