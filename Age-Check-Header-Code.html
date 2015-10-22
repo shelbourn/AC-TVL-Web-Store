@@ -1,0 +1,29 @@
+<!--
+This is the code that needs to be input into the header.html or HTMLHead.html file of a website in order to activate the Age Verification popup
+-->
+
+<!--
+<head>
+
+Place the script in between the "<head>" tags of your header.html or HTMLHead.html file -->
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> --> <!-- Only use this script if your website does not already have a JQuery library referenced within its code. -->
+    <link href="/content/agecheck.css" rel="stylesheet" />
+    <script src="/content/jquery.agecheck.js"></script>
+        <script>
+            $(document).ready(function(){ 
+                var minAge = $('select').val();
+                $('select').on('change', function(){
+                   minAge = $(this).val(); 
+                });
+                $('button').on('click', function(){
+                    sessionStorage.clear();
+                    $.ageCheck({minAge: minAge});
+                });
+                $.ageCheck({minAge: minAge});        
+            });        
+        </script>
+
+<!--
+    </head>
+-->
